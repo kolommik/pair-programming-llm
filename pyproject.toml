@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pair-programming-llm"
+version = "0.1.0"
+description = ""
+authors = ["kolommik <mikhail.kolomasov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pair_programming_llm"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+mypy = "^1.6.0"
+pylint = "^3.0.1"
+flake8 = "^6.1.0"
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
