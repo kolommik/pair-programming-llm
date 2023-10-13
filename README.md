@@ -39,7 +39,8 @@ poetry shell
 
 The repository is structured as follows:
 
-- `/notebooks`: This directory contains Jupyter notebooks corresponding to the lessons from the course.
+- `/notebooks/google palm`: This directory contains Jupyter notebooks corresponding to the lessons from the course.
+- `/notebooks/langchain open ai`: This directory contains Jupyter notebooks with examples of same ideas using OpenAI and langchain.
 
 ## Usage
 
@@ -47,6 +48,7 @@ To run any notebook, navigate to the `/notebooks` directory and open the noteboo
 
 ```bash
 cd notebooks
+cd 'google palm'
 jupyter notebook notebook_name.ipynb
 ```
 
