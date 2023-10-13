@@ -10,6 +10,9 @@ packages = [{include = "pair_programming_llm"}]
 python = "^3.10"
 google-generativeai = "^0.2.1"
 python-dotenv = "^1.0.0"
+openai = "^0.28.1"
+langchain = "^0.0.313"
+tiktoken = "^0.5.1"
 
 
 [tool.poetry.group.dev.dependencies]
